@@ -3,9 +3,7 @@
     "name": "doa_facil_mobile",
     "slug": "doa_facil_mobile",
     "platforms": [
-      "ios",
-      "android",
-      "web"
+      "android"
     ],
     "version": "1.0.0",
     "orientation": "portrait",
@@ -22,11 +20,9 @@
     "assetBundlePatterns": [
       "**/*"
     ],
-    "ios": {
-      "supportsTablet": true
-    },
-    "web": {
-      "favicon": "./assets/images/favicon.png"
+    "android": {
+      "package": "com.alandellon.daoFacil",
+      "versionCode": 1
     }
   }
 }
